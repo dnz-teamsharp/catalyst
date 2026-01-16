@@ -2,6 +2,7 @@ import { composeMiddlewares } from './middlewares/compose-middlewares';
 import { withAnalyticsCookies } from './middlewares/with-analytics-cookies';
 import { withAuth } from './middlewares/with-auth';
 import { withChannelId } from './middlewares/with-channel-id';
+import { withGraphqlProxy } from './middlewares/with-graphql-proxy';
 import { withIntl } from './middlewares/with-intl';
 import { withRoutes } from './middlewares/with-routes';
 
@@ -10,6 +11,7 @@ export const middleware = composeMiddlewares(
   withIntl,
   withAnalyticsCookies,
   withChannelId,
+  withGraphqlProxy,
   withRoutes,
 );
 
