@@ -1,0 +1,25 @@
+{
+  "name": "@dnz/tweakwise-api",
+  "description": "Tweakwise API client for Next.js.",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "npm run generate",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "generate": "openapi-ts"
+  },
+  "devDependencies": {
+    "@bigcommerce/eslint-config": "^2.11.0",
+    "@bigcommerce/eslint-config-catalyst": "workspace:^",
+    "@hey-api/openapi-ts": "^0.92.4",
+    "@types/node": "^22.15.30",
+    "@vitest/ui": "^3.2.4",
+    "eslint": "^8.57.1",
+    "openapi-typescript": "^7.13.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
